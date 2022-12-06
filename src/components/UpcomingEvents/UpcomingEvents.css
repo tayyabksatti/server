@@ -1,0 +1,44 @@
+.UpcomingEvents {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    overflow: auto;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.event>span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.event>span:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.event>span:nth-of-type(2) {
+    font-size: 12px;
+}
+
+
+.SearchOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-button {
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.selectbox {
+    font-size: 14px;
+}
